@@ -1,21 +1,24 @@
 # Project 3: Spots
 
-### Overview  
+**Table of contents**
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+- Intro
+- description
+- Tech-stack
+- Deployment
+
+- **Intro**
+  This is spot an interactive image-sharing application allowing users to upload, edit, and share photos in a dynamic and engaging environment.
+
+  **description**
+  Spot includes features such the ability to like photos from other users, add and remove photos, and make minor adjustments to their profile. fostering a sense of community and creativity. By combining social interaction with visual storytelling.
+
+  **Tech-stack**
+  -HTML
+  -CSS
+  -Responsive design
+  -CSS Grid
+  -media queries
+
+  **Deployment**
+  This website is deployed to github pages
