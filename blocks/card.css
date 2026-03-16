@@ -26,8 +26,20 @@
   opacity: 40%;
 }
 
+.card__link-btn:hover {
+  cursor: pointer;
+}
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nonwrap;
+  overflow: hidden;
+  max-width: 360px;
+}
+
 @media screen and (max-width: 627px) {
-  .cards__image {
+  .card__image {
     height: 288px;
   }
 }

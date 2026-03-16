@@ -22,3 +22,4 @@
 
   **Deployment**
   This website is deployed to github pages
+  [github-link](git@github.com:aarobro-byte/se_project_spots.git)

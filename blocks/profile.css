@@ -16,7 +16,6 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 420px;
-  max-height: 190px;
 }
 
 .profile__name {
@@ -44,9 +43,12 @@
   margin-top: auto;
   background-color: #fcf5e5;
   max-width: 107.34px;
-  max-height: 16px;
   gap: 8px;
   border: none;
+}
+
+.profile__edit-btn:hover {
+  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -60,6 +62,10 @@
   border-radius: 8px;
   padding: 18px 32px 18px 32px;
   gap: 8px;
+}
+
+.profile__add-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
@@ -93,5 +99,9 @@
 
   .profile__add-btn {
     margin: 0;
+  }
+
+  .profile__add-btn:hover {
+    cursor: pointer;
   }
 }
