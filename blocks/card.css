@@ -1,9 +1,9 @@
 .card {
   max-width: 413px;
-  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
 
 .card__image {
+  margin-bottom: 12px;
   height: 413px;
   width: 100%;
   object-fit: cover;
@@ -29,16 +29,22 @@
 .card__link-btn:hover {
   cursor: pointer;
 }
+
 .card__title {
+  margin: 0;
   font-size: 20px;
   font-weight: 500;
   text-overflow: ellipsis;
-  white-space: nonwrap;
+  white-space: nowrap;
   overflow: hidden;
   max-width: 360px;
 }
 
 @media screen and (max-width: 627px) {
+  .card__title {
+    max-width: 235px;
+  }
+
   .card__image {
     height: 288px;
   }
