@@ -2,14 +2,13 @@
 
 **Table of contents**
 
-- Intro
+- Project pitch video
 - description
 - Tech-stack
 - Deployment
 
 - **Intro**
-  This is spot an interactive image-sharing application allowing users to upload, edit, and share photos in a dynamic and engaging environment.
-
+  [video-link]https://drive.google.com/file/d/127EkbV4QBXo9hQnMJsgfn1sCDdF-QQqY/view?usp=sharing
   **description**
   Spot includes features such the ability to like photos from other users, add and remove photos, and make minor adjustments to their profile. fostering a sense of community and creativity. By combining social interaction with visual storytelling.
 
@@ -22,4 +21,4 @@
 
   **Deployment**
   This website is deployed to github pages
-  [github-link](git@github.com:aarobro-byte/se_project_spots.git)
+  [github-link]https://aarobro-byte.github.io/se_project_spots/
