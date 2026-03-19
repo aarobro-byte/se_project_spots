@@ -50,6 +50,7 @@
 
 .profile__edit-btn:hover {
   cursor: pointer;
+  opacity: 0.4;
 }
 
 .profile__add-btn {
@@ -74,6 +75,7 @@
 
 .profile__add-btn:hover {
   cursor: pointer;
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 627px) {
@@ -113,5 +115,6 @@
 
   .profile__add-btn:hover {
     cursor: pointer;
+    opacity: 0.4;
   }
 }

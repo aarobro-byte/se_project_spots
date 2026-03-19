@@ -26,8 +26,9 @@
   opacity: 40%;
 }
 
-.card__link-btn:hover {
+.card__like-btn:hover {
   cursor: pointer;
+  opacity: 0.4;
 }
 
 .card__title {
