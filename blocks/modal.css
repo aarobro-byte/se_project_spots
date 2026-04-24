@@ -23,6 +23,8 @@
   background-color: #fff;
   padding: 32px 50px;
   position: relative;
+  opacity: 0;
+  transition: opacity is linear;
 }
 
 .modal__close-btn {
