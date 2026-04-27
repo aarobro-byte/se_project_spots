@@ -23,7 +23,8 @@
   width: 23px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .card__like-btn:hover {
