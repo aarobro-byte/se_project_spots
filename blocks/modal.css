@@ -39,6 +39,8 @@
 .modal__title {
   margin: 0 0 32px;
   width: 630px;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .modal__form {
@@ -48,10 +50,6 @@
   left: 355px;
   border-radius: 8px;
   gap: 32px;
-  padding-top: 32px;
-  padding-right: 50px;
-  padding-bottom: 32px;
-  padding-left: 50px;
 }
 .modal__label {
   margin: 0 0 32px;
