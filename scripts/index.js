@@ -25,22 +25,23 @@ const captionLink = document.querySelector("#profile-caption-link");
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  openModel(editProfileModal);
+  openModal(editProfileModal);
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
-  closeModel(editProfileModal);
+  closeModal(editProfileModal);
 });
 
 newPostBtn.addEventListener("click", function () {
-  openModel(newPostModal);
+  openModal(newPostModal);
 });
 
 newPostCloseBtn.addEventListener("click", function () {
   closeModal(newPostModal);
 });
 
-function handleEditProfileSubmit(evt) closeModal(editProfileModal) {
+function handleEditProfileSubmit(evt) {
+  closeModal("editProfileModal");
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
@@ -48,11 +49,12 @@ function handleEditProfileSubmit(evt) closeModal(editProfileModal) {
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
-function handleAddCardSubmit(evt) closeModal(editProfileModal) {
+function handleAddCardSubmit(evt) {
+  closeModal(editProfileModal);
   evt.preventDefault();
   console.log(cardImageLink.value);
   console.log(captionLink.value);
-  closeModal(newPostModal)
+  closeModal(newPostModal);
 }
 
 addCardImageInputForm.addEventListener("submit", handleAddCardSubmit);
