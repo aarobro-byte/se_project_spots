@@ -19,7 +19,7 @@ const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
-const cardImageLink = document.querySelector("#card-image-link");
+const cardImageLink = newPostModal.querySelector("#card-image-link");
 const captionLink = document.querySelector("#profile-caption-link");
 
 editProfileBtn.addEventListener("click", function () {
